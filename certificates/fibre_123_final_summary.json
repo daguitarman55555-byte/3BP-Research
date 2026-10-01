@@ -1,0 +1,15 @@
+{
+ "certified": 24148,
+ "precisions_used": {
+  "212": 24148
+ },
+ "max_ball_radius": 1.5910999952001897e-51,
+ "ball_overlaps": 0,
+ "max_A7_radius": 9.330306864817916e-22,
+ "A7_overlaps": 0,
+ "min_abs_A7_gap": 1.7898914075635155,
+ "min_rel_A7_gap": 0.00012998144405517394,
+ "min_gap_over_radius": 1.952991674974933e+37,
+ "base_point_index": 0,
+ "real_points": 0
+}

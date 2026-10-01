@@ -1,0 +1,38 @@
+{
+ "strongly_scalene": {
+  "tracked": 23966,
+  "failed": 182,
+  "coincident_endpoint_pairs_merged": 1,
+  "unique_endpoints": 23965,
+  "real": 224,
+  "real_physical": 69,
+  "source_found": true,
+  "min_rel_A7_gap_all": 6.4900673619156e-07,
+  "A7_source": 736.6478184683713,
+  "nearest_other_A7_rel_to_source": 0.016958882729170663
+ },
+ "large_angular_momentum": {
+  "tracked": 23969,
+  "failed": 179,
+  "coincident_endpoint_pairs_merged": 0,
+  "unique_endpoints": 23969,
+  "real": 241,
+  "real_physical": 68,
+  "source_found": true,
+  "min_rel_A7_gap_all": 5.205776183857875e-08,
+  "A7_source": 66874.72215305599,
+  "nearest_other_A7_rel_to_source": 0.011739364185308545
+ },
+ "zero_angular_momentum": {
+  "tracked": 23950,
+  "failed": 198,
+  "coincident_endpoint_pairs_merged": 0,
+  "unique_endpoints": 23950,
+  "real": 188,
+  "real_physical": 72,
+  "source_found": true,
+  "min_rel_A7_gap_all": 0.00011902530833557282,
+  "A7_source": 9241.88417274824,
+  "nearest_other_A7_rel_to_source": 0.0007366753347875136
+ }
+}

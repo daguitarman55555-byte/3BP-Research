@@ -1,0 +1,88 @@
+
+--------------- INPUT DATA ---------------
+#variables                      10
+#equations                      10
+#invalid equations               0
+field characteristic    1073741827
+homogeneous input?               0
+signature-based computation      0
+monomial order                 DRL
+basis hash table resetting     OFF
+linear algebra option            2
+initial hash table size     131072 (2^17)
+max pair selection             ALL
+reduce gb                        1
+#threads                         1
+info level                       2
+generate pbm files               0
+------------------------------------------
+
+Legend for f4 information
+--------------------------------------------------------
+deg       current degree of pairs selected in this round
+sel       number of pairs selected in this round
+pairs     total number of pairs in pair list
+mat       matrix dimensions (# rows x # columns)
+density   density of the matrix
+new data  # new elements for basis in this round
+          # zero reductions during linear algebra
+time(rd)  time of the current f4 round in seconds given
+          for real and cpu time
+--------------------------------------------------------
+
+deg     sel   pairs        mat          density            new data         time(rd) in sec (real|cpu)
+------------------------------------------------------------------------------------------------------
+  3       2       9       4 x 8          31.25%        2 new       0 zero         0.00 | 0.00         
+  2       2      13       5 x 7          34.29%        1 new       1 zero         0.00 | 0.00         
+  3       1      12       3 x 5          66.67%        0 new       1 zero         0.00 | 0.00         
+  4       2      11      10 x 11         23.64%        0 new       2 zero         0.00 | 0.00         
+  5       4       9      22 x 34          7.62%        3 new       1 zero         0.00 | 0.00         
+  4       1      14       2 x 7          57.14%        1 new       0 zero         0.00 | 0.00         
+  5       1      17       7 x 11         28.57%        0 new       1 zero         0.00 | 0.00         
+  6       8      16      64 x 130         2.58%        5 new       3 zero         0.00 | 0.00         
+  7      21      29     198 x 433         0.98%        9 new      12 zero         0.00 | 0.00         
+  6       3      46      12 x 25         13.33%        2 new       1 zero         0.00 | 0.00         
+  7      10      51      72 x 157         2.48%        6 new       4 zero         0.00 | 0.00         
+  8      50      68     571 x 1152        0.45%        8 new      42 zero         0.00 | 0.00         
+  7      10      57     107 x 302         2.05%        4 new       6 zero         0.00 | 0.00         
+  8      26      67     628 x 1423        0.43%        5 new      21 zero         0.00 | 0.00         
+  9      55      66    1646 x 3427        0.19%        4 new      51 zero         0.00 | 0.00         
+  8       4      29      71 x 343         2.42%        4 new       0 zero         0.00 | 0.00         
+  9      18      48     785 x 1984        0.41%       10 new       8 zero         0.00 | 0.00         
+  8       6      93     172 x 803         1.13%        6 new       0 zero         0.00 | 0.00         
+  9      60     104    2255 x 5990        0.20%       31 new      29 zero         0.02 | 0.01         
+  8      11     202     413 x 1471        0.78%        7 new       4 zero         0.00 | 0.00         
+  8       9     221     850 x 2597        0.44%        2 new       7 zero         0.00 | 0.00         
+  9      83     223    5204 x 11309       0.14%       28 new      55 zero         0.03 | 0.01         
+  9      19     321    2889 x 8098        0.21%        7 new      12 zero         0.01 | 0.01         
+ 10     300     347   17380 x 31033       0.08%       77 new     223 zero         0.10 | 0.07         
+ 10      78     520   17285 x 32572       0.09%       21 new      57 zero         0.05 | 0.05         
+ 11     499     575   42752 x 67598       0.07%       69 new     430 zero         0.26 | 0.26         
+ 11      37     537   30043 x 52098       0.08%        5 new      32 zero         0.09 | 0.09         
+ 12     487     535   85488 x 125668      0.06%       94 new     393 zero         0.87 | 0.87         
+ 12     105     654   79087 x 120480      0.06%       31 new      74 zero         0.47 | 0.47         
+ 12      50     758   81931 x 118842      0.05%       10 new      40 zero         0.38 | 0.38         
+ 13     735     777  195416 x 258505      0.05%      118 new     617 zero         3.86 | 3.86         
+ 11       7     831    4755 x 14739       0.24%        7 new       0 zero         0.02 | 0.02         
+ 10      30     878   11468 x 24494       0.14%       18 new      12 zero         0.04 | 0.04         
+  9      12     961    1819 x 7079        0.33%       11 new       1 zero         0.01 | 0.01         
+ 10      72     998   10865 x 23323       0.17%       35 new      37 zero         0.05 | 0.05         
+  9      24    1172    5343 x 13030       0.21%       15 new       9 zero         0.02 | 0.02         
+  9       9    1230    2175 x 6486        0.36%        5 new       4 zero         0.01 | 0.01         
+  9      12    1263    3786 x 10469       0.30%        8 new       4 zero         0.01 | 0.01         
+ 10     186    1291   20421 x 36575       0.15%       73 new     113 zero         0.14 | 0.14         
+  9       7    1545    4341 x 11513       0.32%        5 new       2 zero         0.02 | 0.02         
+ 10     138    1563   23753 x 41109       0.15%       59 new      79 zero         0.15 | 0.15         
+ 10      49    1763   23655 x 41720       0.17%       20 new      29 zero         0.12 | 0.12         
+ 10      11    1820   20330 x 38137       0.21%        7 new       4 zero         0.12 | 0.12         
+ 11    1002    1860   73251 x 103268      0.14%      287 new     717 zero         2.00 | 1.99         
+ 11     422    2564   75490 x 106887      0.16%      140 new     282 zero         1.53 | 1.53         
+ 11     103    3000   67913 x 99251       0.17%       40 new      63 zero         0.89 | 0.89         
+ 12    2619    3188  168700 x 212867      0.18%      525 new    2095 zero        31.45 | 31.44        
+ 11      17    4086   66253 x 97405       0.19%        7 new      10 zero         0.66 | 0.65         
+ 12     743    4119  175431 x 222242      0.16%      153 new     590 zero        17.16 | 17.16        
+ 12      56    4407  148622 x 195135      0.17%       25 new      31 zero         4.03 | 4.03         
+ 13    4343    4528  347649 x 409253      0.16%      723 new    3621 zero       264.16 | 264.09       
+ 13    2252    5304  374116 x 441329      0.15%      388 new    1864 zero       299.76 | 299.67       
+ 13     115    5884  354779 x 423336      0.12%       47 new      68 zero        25.75 | 25.74        
+ 14    6051    6138  658237 x 741113      0.13%exit 124

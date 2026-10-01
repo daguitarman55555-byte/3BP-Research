@@ -1,0 +1,1 @@
+strongly_expanding {'tracked': 23137, 'failed': 1011, 'coincident_endpoint_pairs_merged': 1, 'unique_endpoints': 23136, 'real': 115, 'real_physical': 18, 'source_found': True, 'min_rel_A7_gap_all': 1.637404636606848e-07, 'A7_source': -1219254.3009531954, 'nearest_other_A7_rel_to_source': 4.1447022361524045e-06}

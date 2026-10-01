@@ -1,0 +1,6 @@
+spin_flip (shape velocities kept, J->-J)      first differing derivative order over 3 random states: [2, 2, 2]
+reflection y->-y (A->-A expected)             first differing derivative order over 3 random states: [0, 0, 0]
+time reversal v->-v                           first differing derivative order over 3 random states: [1, 1, 1]
+reflection+time reversal                      first differing derivative order over 3 random states: [0, 0, 0]
+shape-velocity flip (rigid part kept)         first differing derivative order over 3 random states: [1, 1, 1]
+radial-velocity flip (dilation reversed)      first differing derivative order over 3 random states: [1, 1, 1]

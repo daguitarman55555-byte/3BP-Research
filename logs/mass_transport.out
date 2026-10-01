@@ -1,0 +1,4 @@
+/home/user/3BP-Research/code/track_mass.py:46: NumbaPerformanceWarning: [1m[1m[1m[1m'@' is faster on contiguous arrays, called on (Array(complex128, 2, 'A', False, aligned=True), Array(complex128, 1, 'C', False, aligned=True))[0m[0m[0m[0m
+  y,o=trackm(Ys[i].copy(),p0,p1,E,C,off,md,0.05)
+{'tracked': 23849, 'failed': 299, 'duplicate_endpoints': 0, 'source_state_found': True, 'min_rel_A7_gap': 7.124622385818429e-07, 'time': 1993.302368402481}
+{'tracked': 23849, 'failed': 299, 'duplicate_endpoints': 0, 'source_state_found': True, 'min_rel_A7_gap': 7.124622385818429e-07, 'time': 1993.302368402481, 'membership_tested': 763, 'membership_hits': 749}

@@ -1,0 +1,3 @@
+{'tracked': 23823, 'failed': 325, 'duplicate_endpoints': 1, 'source_state_found': True, 'min_rel_A7_gap': 3.7979110933268397e-16, 'time': 1976.643150806427}
+{'tracked': 23823, 'failed': 325, 'duplicate_endpoints': 1, 'source_state_found': True, 'min_rel_A7_gap': 3.7979110933268397e-16, 'time': 1976.643150806427, 'membership_tested': 281, 'membership_hits': 273}
+Killed

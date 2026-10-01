@@ -1,0 +1,15 @@
+total 20148 new 255 queue 18148 fails 135 t=189s
+total 20399 new 506 queue 16399 fails 277 t=382s
+total 20653 new 760 queue 14653 fails 394 t=570s
+total 20888 new 995 queue 12888 fails 543 t=757s
+total 21092 new 1199 queue 11092 fails 667 t=947s
+total 21298 new 1405 queue 9298 fails 808 t=1132s
+total 21500 new 1607 queue 7500 fails 939 t=1319s
+total 21699 new 1806 queue 5699 fails 1079 t=1507s
+total 21908 new 2015 queue 3908 fails 1248 t=1651s
+total 22133 new 2240 queue 2133 fails 1442 t=1793s
+total 22443 new 2550 queue 443 fails 1730 t=1939s
+total 22526 new 2633 queue 83 fails 1765 t=1971s
+total 22539 new 2646 queue 13 fails 1772 t=1978s
+total 22542 new 2649 queue 3 fails 1772 t=1979s
+total 22542 new 2649 queue 0 fails 1773 t=1979s
