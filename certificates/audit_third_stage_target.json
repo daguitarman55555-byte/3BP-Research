@@ -1,0 +1,10 @@
+{
+ "tracked": 21966,
+ "failed": 2182,
+ "real_endpoints": 241,
+ "real_physical_endpoints": 48,
+ "certified_distinct_real_physical": 54,
+ "A7_pairwise_disjoint": true,
+ "third_stage_roots_among_certified": 37,
+ "third_stage_roots_found_by_transport": 31
+}

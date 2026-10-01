@@ -240,7 +240,15 @@ paths and was stopped. Milder versions (r₁₂ = 0.2, and a binary of 0.25 with
 ≈3.2) were lost to a worker restart. Phase 9 is therefore only partly covered. The fibre
 transport is the right tool for it; it is simply slow near collision.
 
-**Audit of the third-stage 37 real roots.** AUDIT37
+**Audit of the third-stage 37 real roots** (`audit_37b.py`). We transported the fibre to the
+third-stage target state (3,0,4,1,2,3,−1), using the *exact rational* sixth jet as the target.
+Of the paths, 21 966 were tracked and 2 182 failed; real targets are harder. The transport
+recovered 31 of the 37 roots directly and found 48 real physical endpoints. We then certified
+the union of our 48 and their 37 at 212 bits against the exact target. The result:
+**54 distinct real physical regular preimages, all 37 third-stage roots among them, with pairwise
+disjoint A⁽⁷⁾ enclosures (EXACT COMPUTATIONAL CERTIFICATE).** The third-stage count of 37 is
+confirmed as correct but incomplete; the real physical sixth-jet fibre there has at least 54
+points. (A uniquely contained root of a real system in a conjugation-symmetric box is real.)
 
 ## 10. Phase 10 — generic versus uniform theorems
 
@@ -329,7 +337,8 @@ Not applicable: no nontrivial cover was found for distinct masses.
   package gives no indication that N is of order 10⁴. The 37 real roots are a small real slice.
 * The Noetherian existence of a uniform order is correctly credited to the third stage. It is
   not new.
-* The 37 real roots themselves: see §9 for whether our fibre reproduces them.
+* The 37 real roots themselves: all 37 are re-certified here, but they are not the whole real
+  fibre (≥ 54 real physical roots at that target, §9).
 * None of the packages computed or bounded N from above. None separated "closure under
   monodromy loops" from completeness. This investigation shows that the distinction matters
   (the false plateau at 19 893).
@@ -344,6 +353,8 @@ Not applicable: no nontrivial cover was found for distinct masses.
 | Differential embeddings / correspondence formulation of d | PROVED |
 | [C(L):C(𝒜)] ≤ d; d = 1 ⇒ H, J ∈ ℚ(A..A⁽⁷⁾) | PROVED |
 | d = 1 ⇐ completeness of one certified fibre plus properness at c₀ | PROVED |
+| ≥ 54 real physical regular sixth-jet preimages (incl. all 37 of the third stage) at the third-stage target, A⁽⁷⁾-separated | EXACT COMPUTATIONAL CERTIFICATE |
+| Equal masses (1,2,2): pipeline detects the swap+reflection cover (10 658 coincident pairs) | STRONGLY SUPPORTED NUMERICALLY (positive control) |
 | Fibre is ≈ 98.8 % complete; N ≈ 24.4·10³ | STRONGLY SUPPORTED NUMERICALLY |
 | d = 1 (h₇ primitive; generic complete-history uniqueness; order 7 generically sufficient) | STRONGLY SUPPORTED NUMERICALLY |
 | Closure under one fixed loop set ⇒ complete fibre | FALSE (false plateau at 19 893) |
